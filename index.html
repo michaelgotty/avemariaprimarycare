@@ -18,6 +18,13 @@
     <!-- Description for search engines (SEO) -->
     <meta name="description" content="Ave Maria Primary Care: Holistic Internal & Functional Medicine in Ave Maria, FL. Specialists in Lipidology, PRP, and Bioidentical Hormone Therapy. Official website for avemariaprimary.com">
     
+    <!-- FAVICON LINKS: UPDATED TO COMPREHENSIVE MULTI-DEVICE SUPPORT -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="/favicon.ico"> 
+    
     <!-- Load Tailwind CSS (FIXED URL) --><script src="https://cdn.tailwindcss.com"></script>
     <!-- Configure Tailwind for custom colors and font --><script>
         tailwind.config = {
@@ -457,9 +464,9 @@
                     </h4>
                     
                     <div class="border-t pt-3">
-                        <p class="text-gray-600 mb-1">Phone: <a href="tel:+12394127371" class="text-primary-blue hover:text-secondary-green font-semibold">(239) 412-7371</a></p>
+                        <p class="text-gray-600 mb-1">Phone: <a href="tel:+12394127371" class="text-primary-blue hover:text-secondary-green font-semibold" onclick="gtag('event', 'phone_call');">(239) 412-7371</a></p>
                         <p class="text-gray-600 mb-1">Fax: (239) 658-5143</p>
-                        <p class="text-gray-600">Email: <a href="mailto:avemariaprimarycare@gmail.com" class="text-primary-blue hover:text-secondary-green">AveMariaPrimaryCare@gmail.com</a></p>
+                        <p class="text-gray-600">Email: <a href="mailto:avemariaprimarycare@gmail.com" class="text-primary-blue hover:text-secondary-green" onclick="gtag('event', 'email_click');">AveMariaPrimaryCare@gmail.com</a></p>
                     </div>
                 </div>
 
